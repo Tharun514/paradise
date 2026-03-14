@@ -4,6 +4,7 @@ import { HomeComponent } from './navigatingcomponents/home/home.component';
 import { AboutComponent } from './navigatingcomponents/about/about.component';
 import { ProjectsComponent } from './navigatingcomponents/projects/projects.component';
 import { AchievementsComponent } from './navigatingcomponents/achievements/achievements.component';
+import { ContactComponent } from './navigatingcomponents/contact/contact.component';
 
 const routes: Routes = [
   {
@@ -21,6 +22,10 @@ const routes: Routes = [
   {
     path:'achievements',
     component:AchievementsComponent
+  },
+  {
+    path:'contact',
+    component:ContactComponent
   },
   {
     path:'**',

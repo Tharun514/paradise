@@ -9,6 +9,7 @@ import { AboutComponent } from './navigatingcomponents/about/about.component';
 import { AchievementsComponent } from './navigatingcomponents/achievements/achievements.component';
 import { NavbarComponent } from './commoncomponents/navbar/navbar.component';
 import { FooterComponent } from './commoncomponents/footer/footer.component';
+import { ContactComponent } from './navigatingcomponents/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { FooterComponent } from './commoncomponents/footer/footer.component';
     AchievementsComponent,
     NavbarComponent,
     FooterComponent,
+    ContactComponent,
   ],
   imports: [
     BrowserModule,
